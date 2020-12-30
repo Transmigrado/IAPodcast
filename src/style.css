@@ -1081,7 +1081,7 @@ form .form-callback.error {
 .form-newsletter .btn {
 	height: 60px;
 	font-size: 25px;
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 }
 
 .breadcrumb {
@@ -1800,7 +1800,7 @@ form .form-callback.error {
 
 .podcast-card .podcast-title {
 	font-size: 24px;
-	font-size: 2.4rem;
+	font-size: 1.4rem;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -1881,7 +1881,7 @@ form .form-callback.error {
 }
 
 .podcast-card.boxed .podcast-excerpt {
-	height: 40px;
+	height: 20px;
 }
 
 /* ========================= */
