@@ -52,7 +52,7 @@ const Main = () => {
         <main id="main" class="main">
 			<section id="about-us" class="section-negative">
 				<div class="container">
-					<h2 class="title-default text-center">Behind the mic...</h2>
+					<h2 class="title-default text-center">Detrás de los microfonos...</h2>
 					<div class="row mb-30">
 						{podcasters.map( item => <Item {...item} />)}
 					</div>
