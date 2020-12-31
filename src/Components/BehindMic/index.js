@@ -6,19 +6,19 @@ import jorge from '../../assets/jorge.jpg'
 const podcasters = [
     {
         name:'Diego Andrade',
-        title: 'Traductor / Difusor Filosofico',
+        title: 'Traductor',
         description: 'Descripción',
         image: diego
     },
     {
         name:'Jorge Acosta',
-        title: 'Desarrollador / Difusor Filosofico',
+        title: 'Desarrollador',
         description: 'Descripción',
         image: jorge
     },
     {
         name:'Samuel Álvarez',
-        title: 'Músico / Difusor Filosofico',
+        title: 'Músico',
         description: 'Descripción',
         image: diego
     }
@@ -41,7 +41,7 @@ const BehindMic = () => {
     )
 
     return (
-        <section id="about-us" className="section-negative">
+        <section id="about-us" className="section-negative" style={{paddingTop:'20px'}}>
 				<div className="container">
                 <h2 className="title-default text-center">Detrás de los microfonos...</h2>
                 <div className="row mb-30">

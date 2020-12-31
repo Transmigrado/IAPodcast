@@ -1,8 +1,7 @@
-import '../../style.css'
-import ReactAudioPlayer from 'react-audio-player'
+
 import React from 'react'
 import amaze from '../../assets/animals_that_amaze.jpg'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import audio from '../../podcast_final.mp3'
 
 
 const Cover = () => {
@@ -23,12 +22,14 @@ const Cover = () => {
 				
 				<div className="podcast-hero-player-content">
 					<div className="container">
-					<ReactAudioPlayer
-			src="../../emotional.mp3"
-			autoPlay
-			controls
-			/>
 
+					<audio
+						autoPlay={true}
+						controls={true}
+						style={{width:'100%', height:'100px'}} 
+						>
+							<source type="audio/mp3" src={audio} />
+						</audio>
 					</div>
 				</div>
 				
