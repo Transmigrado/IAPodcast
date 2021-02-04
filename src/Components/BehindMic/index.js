@@ -39,7 +39,7 @@ const BehindMic = () => (
     <section id="about-us" className="section-negative" style={{paddingTop:'20px'}}>
             <div className="container">
             <h2 className="title-default text-center">Detrás de los microfonos</h2>
-            <p className="text-center">somos un grupo de amigos interesados en la filosofia y la ciencia detrás del problema mas importante de la existencia: la reducción del sufrimiento y cómo reducirlo/eliminarlo/abolirlo</p>
+            <p className="text-center">somos un grupo de amigos interesados en la filosofia y la ciencia detrás del problema mas importante de la existencia: el sufrimiento y cómo abolirlo</p>
             <div className="row mb-30" style={{paddingTop:'20px'}}>
                 {podcasters.map((item, index) => <Item key={`header_key_${index}`} {...item} />)}
             </div>
