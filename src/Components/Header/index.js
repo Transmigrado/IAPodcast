@@ -8,6 +8,10 @@ const Header = () => {
 
     const onClick = index => () => setSelectedIndex(index)
 
+    const onMenuClick = () => {
+
+    }
+
     const menu = ['Home','Episodios','Nosotros']
 
     return (

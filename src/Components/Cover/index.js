@@ -1,7 +1,7 @@
 
 import React from 'react'
 import amaze from '../../assets/animals_that_amaze.jpg'
-import audio from '../../podcast_final.mp3'
+import audio from '../../assets/mp3/episode_1.mp3'
 
 
 const Cover = () => {
