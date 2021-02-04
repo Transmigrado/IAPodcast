@@ -24,7 +24,7 @@ const Cover = () => {
 					<div className="container">
 
 					<audio
-						autoPlay={true}
+						autoPlay={false}
 						controls={true}
 						style={{width:'100%', height:'100px'}} 
 						>
