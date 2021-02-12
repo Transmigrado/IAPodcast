@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+    <title>Imperativo Altruista</title>
+    <link>http://www.imperativoaltruista.org/</link>
+    <language>es-CL</language>
+    <itunes:author>Imperativo Altruista</itunes:author>
+    <description>
+    somos un grupo de amigos interesados en la filosofia y la ciencia detrás del problema mas importante de la existencia: el sufrimiento y cómo abolirlo
+    </description>
+    <itunes:type>serial</itunes:type>
+    <itunes:owner>
+        <itunes:name>Imperativo Altruista</itunes:name>
+        <itunes:email>mountainscape@icloud.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://www.imperativoaltruista.org/logo512.png" />
+    <itunes:category text="Filosofia" />
+    <itunes:category text="Etica" /> 
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+        <itunes:episodeType>trailer</itunes:episodeType>
+        <itunes:title>Hiking Treks Trailer</itunes:title>
+        <description>
+        <content:encoded>
+        <![CDATA[¿Qué es lo que realmente importa? Si le preguntamos a 10 personas, probablemente obtendremos 10 respuesta distintas. Y, aunque todos creemos tener una idea más o menos clara de cómo sería un mundo mejor, probablemente no hemos pensado mucho en los detalles. Esto puede ser un gran problema, sobre todo considerando que cualquier intento de mejorar implicará conflictos entre distintos valores y prioridades, cuya resolución para un lado o para el otro puede llevar a resultados totalmente distintos. Por esto, cabe preguntarse también: ¿qué valores compartimos y cuáles deberíamos priorizar?]]>
+        </content:encoded>
+        </description>
+        <guid>piloto</guid>
+        <pubDate>Abril 2020</pubDate>
+        <itunes:duration>2790</itunes:duration>
+        <itunes:explicit>false</itunes:explicit>
+    </item>
+</channel>
+</rss>
+
