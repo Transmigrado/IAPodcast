@@ -11,15 +11,15 @@
     <itunes:type>serial</itunes:type>
     <itunes:owner>
         <itunes:name>Imperativo Altruista</itunes:name>
-        <itunes:email>mountainscape@icloud.com</itunes:email>
+        <itunes:email>imperativoaltruista@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="http://www.imperativoaltruista.org/logo512.png" />
     <itunes:category text="Filosofia" />
     <itunes:category text="Etica" /> 
     <itunes:explicit>false</itunes:explicit>
     <item>
-        <itunes:episodeType>trailer</itunes:episodeType>
-        <itunes:title>Hiking Treks Trailer</itunes:title>
+        <itunes:episodeType>podcast</itunes:episodeType>
+        <itunes:title>piloto</itunes:title>
         <description>
         <content:encoded>
         <![CDATA[¿Qué es lo que realmente importa? Si le preguntamos a 10 personas, probablemente obtendremos 10 respuesta distintas. Y, aunque todos creemos tener una idea más o menos clara de cómo sería un mundo mejor, probablemente no hemos pensado mucho en los detalles. Esto puede ser un gran problema, sobre todo considerando que cualquier intento de mejorar implicará conflictos entre distintos valores y prioridades, cuya resolución para un lado o para el otro puede llevar a resultados totalmente distintos. Por esto, cabe preguntarse también: ¿qué valores compartimos y cuáles deberíamos priorizar?]]>
