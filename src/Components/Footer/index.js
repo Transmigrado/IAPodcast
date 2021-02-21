@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/ia_podcast_logo_white.png'
 
-const Footer = () => {
+const Footer = ({onMenu}) => {
     return (
         <footer class="footer">
 			
@@ -15,8 +15,8 @@ const Footer = () => {
 						<div class="col-sm-3 mb-40">
 							<h2 class="title-separator white">Sitemap</h2>
 							<ul class="footer-list">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about-us.html">Nosotros</a></li>
+								<li><a href="#" onClick={onMenu(0)}>Home</a></li>
+								<li><a href="#" onClick={onMenu(1)}>Nosotros</a></li>
 							</ul>
 						</div>
 					
@@ -41,7 +41,7 @@ const Footer = () => {
 						
 					
 						<div class="col-sm-6 footer-logo">
-							<h2><a href="index.html"><img src={logo} alt="Soudcast - Podcast Responsive Theme" title="Soundcast - Podcast Responsive Theme" style={{ width: 200}} /></a></h2>
+							<h2><a href="#"><img src={logo} alt="Imperativo Altruista Podcast" title="Imperativo Altruista Podcas" style={{ width: 200}} /></a></h2>
 						</div>
 						
 						

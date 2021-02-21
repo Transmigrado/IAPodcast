@@ -18,7 +18,7 @@ const App = () =>  {
       {menu === 1 && <AboutUsCover />}
       {menu === 0 &&  <Main />}
      
-      <Footer />
+      <Footer onMenu={menu => setMenu(menu)} />
     </>
   );
 }
