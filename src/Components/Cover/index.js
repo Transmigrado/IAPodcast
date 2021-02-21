@@ -11,7 +11,7 @@ const Cover = () => {
 				<div className="container">
 						<div className="podcast-hero-content">
 						
-						<h2 className="podcast-hero-title"><a href="podcast.html">EPISODIO 1 - PODCAST</a></h2>
+						<h2 className="podcast-hero-title"><a href="podcast.html">EPISODIO PILOTO - PODCAST</a></h2>
 						<ul className="podcast-hero-meta">
 							<li className="item"><a href="#" className="podcast-hero-tag" rel="tag">Etica</a></li>
 							<li className="item"><i className="fa fa-clock-o"></i> 46 mins.</li>

@@ -7,7 +7,7 @@ const posts = [
 	{
 		description: '¿Qué es lo que realmente importa? Si le preguntamos a 10 personas, probablemente obtendremos 10 respuesta distintas.  Y, aunque todos creemos tener una idea más o menos clara de cómo sería un mundo mejor, probablemente no hemos pensado mucho en los detalles. Esto puede ser un gran problema, sobre todo considerando que cualquier intento de mejorar implicará conflictos entre distintos valores y prioridades, cuya resolución para un lado o para el otro puede llevar a resultados totalmente distintos. Por esto, cabe preguntarse también: ¿qué valores compartimos y cuáles deberíamos priorizar?',
 		duration: '46 min',
-		title: 'Episodio 1 - PodCast',
+		title: 'Episodio Piloto - PodCast',
 		date: 'Abril, 2020'
 	},
 ]
