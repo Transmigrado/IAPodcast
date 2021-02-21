@@ -1,6 +1,5 @@
 
 import React from 'react'
-import NewLetter from '../NewLetter'
 import BehindMic from '../BehindMic'
 import { IMAGE } from './image'
 
@@ -20,15 +19,15 @@ const Main = () => {
 			<div className={`col-sm-${(index === 0 || posts.length === 2) ? '12' : '6'} mb-40`}>
 				<div className={`podcast-card ${(index === 0 || posts.length === 2) ? 'full':'boxed'}`}>
 					<figure className="podcast-image">
-						<a href="podcast-soundcloud.html"><img src={IMAGE} alt="Seattle" title="Seattle" /></a>
+						<a href="#"><img src={IMAGE} alt="Seattle" title="Seattle" /></a>
 					</figure>
 					<div className="podcast-content">
 						<span className="podcast-date">{item.date}</span>
-						<h2 className="podcast-title"><a href="podcast-soundcloud.html">{item.title}</a></h2>
-						<p className="podcast-excerpt"><a href="podcast-soundcloud.html">{item.description}</a></p>
+						<h2 className="podcast-title"><a href="#">{item.title}</a></h2>
+						<p className="podcast-excerpt"><a href="#">{item.description}</a></p>
 						<ul className="podcast-meta">
 							<li className="item"><i className="fa fa-clock-o"></i> {item.duration}</li>
-							<li className="item"><a href="podcast-soundcloud.html" className="podcast-play"><i className="fa fa-play"></i> Reproducir Episodio</a></li>
+							<li className="item"><a href="#" className="podcast-play"><i className="fa fa-play"></i> Reproducir Episodio</a></li>
 						</ul>
 					</div>
 				</div>
@@ -47,7 +46,6 @@ const Main = () => {
 				</div>
 			</section>
 			<BehindMic />
-			<NewLetter />
 		</main>
     )
 }

@@ -24,8 +24,8 @@ const podcasters = [
     }
 ]
 
-const Item = ({ name, title, image}) => (
-    <div className="col-lg-4 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 mb-40">
+const Item = ({ name, image}) => (
+    <div className="col-lg-3 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-12 mb-40">
         <div className="team-card">
             <figure className="team-card-image"><img src={image} alt={name} title={name} /></figure>
             <div className="team-card-content" style={{paddingBottom:'20px'}}>

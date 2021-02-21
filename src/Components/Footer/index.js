@@ -16,7 +16,6 @@ const Footer = () => {
 							<h2 class="title-separator white">Sitemap</h2>
 							<ul class="footer-list">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="podcasts.html">Podcasts</a></li>
 								<li><a href="about-us.html">Nosotros</a></li>
 							</ul>
 						</div>
