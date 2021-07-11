@@ -1,28 +1,32 @@
-
-import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
+
+import React from 'react'
+import {Provider} from 'react-redux'
 import Header from './Components/Header'
-import Cover from './Components/Cover'
-import AboutUsCover from './Components/AboutUsCover'
-import TranscriptionPage from './Components/TranscriptionPage'
-import Main from './Components/Main'
 import Footer from './Components/Footer'
+
+import AboutUsCover from './Pages/AboutUsCover'
+import TranscriptionPage from './Pages/TranscriptionPage'
+import Home from './Pages/Home'
+
+import store from './Redux/store'
+import { Route, BrowserRouter, Switch } from 'react-router-dom'
 
 const App = () =>  {
 
-  const [menu, setMenu] = useState(0)
   return (
-    <>
-      <Header onMenu={menu => setMenu(menu)} />
-      {menu === 0 && <Cover />}
-      {menu === 0 &&  <Main />}
-      {menu === 1 && <TranscriptionPage />}
-      {menu === 2 && <AboutUsCover />}
-    
-     
-      <Footer onMenu={menu => setMenu(menu)} />
-    </>
+    <Provider store={store}>
+      <BrowserRouter>
+          <Header />
+          <Switch>
+            <Route path="/transcription" component={TranscriptionPage} />
+            <Route path="/about" component={AboutUsCover} />
+            <Route path="/" component={Home} />
+          </Switch>
+          <Footer />
+      </BrowserRouter>
+    </Provider>
   );
 }
 

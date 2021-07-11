@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import pig from '../../assets/pig.jpg'
+import pig from '../../assets/owl.jpeg'
 import assets from '../../assets'
 import { txtToArray }  from '../../utils/transcription'
 
@@ -8,13 +8,13 @@ const TranscriptionPage = () => {
     const [transcription, setTranscription] = useState([])
 
     useEffect(() => {
-        fetch(assets.transcriptions.TS01E01)
-        .then(response => response.text())
-        .then(data => {
-           
-            setTranscription(txtToArray(data))
-        })
+        fetch(assets.transcriptions.TS01E02)
+            .then(response => response.text())
+            .then(data => {
+                setTranscription(txtToArray(data))
+            })
     },[])
+
     return (
         <main id="main" class="main" >
 		

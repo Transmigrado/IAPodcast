@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from '../../assets/ia_podcast_logo_white.png'
+import { Link } from 'react-router-dom'
 
-const Footer = ({onMenu}) => {
+const Footer = () => {
     return (
         <footer class="footer">
 			
@@ -15,8 +16,10 @@ const Footer = ({onMenu}) => {
 						<div class="col-sm-3 mb-40">
 							<h2 class="title-separator white">Sitemap</h2>
 							<ul class="footer-list">
-								<li><a href="#" onClick={() => onMenu(0)}>Home</a></li>
-								<li><a href="#" onClick={() => onMenu(1)}>Nosotros</a></li>
+								<Link to="/"><li><a href="#" >Home</a></li></Link>
+								<Link to="/transcription"><li><a href="#" >Transcripciones</a></li></Link>
+								<Link to="/about"><li><a href="#" >Nosotros</a></li></Link>
+							
 							</ul>
 						</div>
 					
