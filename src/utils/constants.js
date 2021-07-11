@@ -12,6 +12,7 @@ const POSTS = [
 		date: 'Abril, 2021',
 		cover: assets.images.cover.S01E02,
         audio: S01E02,
+		postId: 'S01E02',
 		youtubeLink: 'https://www.youtube.com/watch?v=IAZ-8rSbMwo',
 	},
 	{
@@ -22,7 +23,8 @@ const POSTS = [
 		cover: assets.images.cover.S01E01,
         audio: S01E01,
 		youtubeLink: 'https://www.youtube.com/watch?v=JtAZTaOObqM',
-		transcription: assets.transcriptions.TS01E01,
+		transcription: assets.transcriptions.S01E01,
+		postId: 'S01E01',
 		readTime: '21 min'
 	},
 	
@@ -34,7 +36,8 @@ const POSTS = [
 		cover: assets.images.cover.S01E00,
         audio: S01E00,
 		youtubeLink: 'https://www.youtube.com/watch?v=wb9tBuMQPLs',
-		transcription: assets.transcriptions.TS01E00,
+		transcription: assets.transcriptions.S01E00,
+		postId: 'S01E00',
 		readTime: '22 min'
 	},
 	

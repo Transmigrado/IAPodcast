@@ -1,21 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import owl from '../../assets/owl.jpeg'
-import { txtToArray }  from '../../utils/transcription'
+import { Link } from 'react-router-dom'
 
 const TranscriptionPage = ({ list }) => {
-
-    const [transcription, setTranscription] = useState([])
   
 	const RenderPost = ({ index, item }) => {
-
-		const onClick = () => {
-           
-			fetch(item.transcription)
-                .then(response => response.text())
-                .then(data => {
-                    setTranscription(txtToArray(data))
-                })
-		}
 
 		return (
 			<div className={`col-sm-12 mb-40`}>
@@ -29,11 +18,11 @@ const TranscriptionPage = ({ list }) => {
 						<p className="podcast-excerpt"><a href="#">{item.description}</a></p>
 						<ul className="podcast-meta">
 							<li className="item"><i className="fa fa-clock-o"></i>{` ${item.readTime} de lectura`}</li>
-							<li className="item"><a href="#" onClick={onClick} className="podcast-play"><i className="fa fa-play"></i> Leer transcripción</a></li>
+							<Link to={`/transcriptionDetail/${item.postId}`}><li className="item"><a href="#" className="podcast-play" style={{marginLeft: 10}}><i className="fa fa-book"></i> Leer transcripción</a></li></Link>
 						</ul>
 					</div>
 				</div>
-			</div>			
+			</div>		
 		)
 	}
 
@@ -54,16 +43,9 @@ const TranscriptionPage = ({ list }) => {
 
 			<section id="about-us" class="section-negative">
 				<div class="container" style={{padding: 30}}>
-                    {transcription.length === 0 && list.filter(({transcription}) => transcription).map((item, index) => <RenderPost item={item} index={index} />)}
-                    {transcription.map(e => (
-                        <div className="row">
-                            <div className="col-sm-2">
-                                <p className="timeCapsule">{e.time}</p>
-                                <p><img className="avatar" src={e.avatar} alt="" title="" /> {e.name}</p>
-                            </div >
-                            <p className="col-sm-10">{e.txt}</p>
-                        </div>
-                    ))}
+	
+                    {list.filter(({transcription}) => transcription).map((item, index) => <RenderPost item={item} index={index} />)}
+                    
 
                 </div>
 			</section>

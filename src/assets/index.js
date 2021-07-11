@@ -15,9 +15,17 @@ const assets = {
         }
     },
     transcriptions: {
-        TS01E00,
-        TS01E01,
-        TS01E02
+        S01E00: {
+            title:'Episodio Piloto - PodCast',
+            txt: TS01E00
+        },
+        S01E01: {
+            title:'Episodio #01: Nuestra relación con los animales',
+            txt: TS01E01
+        },
+        S01E02: {
+            txt: TS01E02
+        }
     }
 }
 

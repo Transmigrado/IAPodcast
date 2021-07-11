@@ -2,18 +2,22 @@ import React, { useState, useEffect } from 'react'
 import pig from '../../assets/owl.jpeg'
 import assets from '../../assets'
 import { txtToArray }  from '../../utils/transcription'
+import { useParams } from "react-router-dom"
 
 const TranscriptionPage = () => {
+
+
+    let { transcriptionId } = useParams()
 
     const [transcription, setTranscription] = useState([])
 
     useEffect(() => {
-        fetch(assets.transcriptions.TS01E02)
+        fetch(assets.transcriptions[transcriptionId].txt)
             .then(response => response.text())
             .then(data => {
                 setTranscription(txtToArray(data))
             })
-    },[])
+    },[transcriptionId])
 
     return (
         <main id="main" class="main" >
@@ -22,7 +26,7 @@ const TranscriptionPage = () => {
 				<div class="page-header-inner">
 					<div class="container">
 						<div class="page-header-content text-center">
-							<h2>Nosotros</h2>
+							<h1>{assets.transcriptions[transcriptionId].title}</h1>
 						</div>
 					</div>
 				</div>

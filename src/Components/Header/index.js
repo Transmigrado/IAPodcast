@@ -18,7 +18,7 @@ const menu = [
     }
 ]
 
-const Header = ({ onMenu }) => {
+const Header = () => {
 
     const [selectedIndex, setSelectedIndex ] = useState(0)
     const [display, setDisplay] = useState('none')
