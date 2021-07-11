@@ -2,7 +2,7 @@
 import logo from '../../assets/ia_podcast_logo.png'
 import React, { useState } from 'react'
 
-const menu = ['Home','Nosotros']
+const menu = ['Home','Transcripciones','Nosotros']
 
 const Header = ({ onMenu }) => {
 

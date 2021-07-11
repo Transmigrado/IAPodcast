@@ -1,8 +1,7 @@
 
 import React from 'react'
 import amaze from '../../assets/animals_that_amaze.jpg'
-import audio from '../../assets/mp3/episode_1.mp3'
-
+import audio from '../../assets/mp3/S01E00.mp3'
 
 const Cover = () => {
     return (
@@ -13,7 +12,7 @@ const Cover = () => {
 						
 						<h2 className="podcast-hero-title"><a href="podcast.html">EPISODIO PILOTO - PODCAST</a></h2>
 						<ul className="podcast-hero-meta">
-							<li className="item"><a href="#" className="podcast-hero-tag" rel="tag">Etica</a></li>
+							<li className="item">Etica</li>
 							<li className="item"><i className="fa fa-clock-o"></i> 46 mins.</li>
 							<li className="item"><a href="/mp3/episode_1.mp3" className="podcast-hero-download"><i className="fa fa-download"></i> Download</a></li>
 						</ul>
