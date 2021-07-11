@@ -4,7 +4,7 @@ import S01E02 from './posts/S01E02.jpeg'
 
 import TS01E00 from './transcription/S01E00.txt'
 import TS01E01 from './transcription/S01E01.txt'
-import TS01E02 from './transcription/S01E01.txt'
+import TS01E02 from './transcription/S01E02.txt'
 
 const assets = {
     images: {

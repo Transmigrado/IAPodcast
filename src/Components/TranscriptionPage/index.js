@@ -8,7 +8,7 @@ const TranscriptionPage = () => {
     const [transcription, setTranscription] = useState([])
 
     useEffect(() => {
-        fetch(assets.transcriptions.TS01E00)
+        fetch(assets.transcriptions.TS01E01)
         .then(response => response.text())
         .then(data => {
            
