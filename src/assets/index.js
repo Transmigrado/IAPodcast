@@ -24,6 +24,7 @@ const assets = {
             txt: TS01E01
         },
         S01E02: {
+            title:'Episodio #02: El deber de ayudar',
             txt: TS01E02
         }
     }
