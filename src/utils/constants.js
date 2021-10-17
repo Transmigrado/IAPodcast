@@ -14,6 +14,8 @@ const POSTS = [
         audio: S01E02,
 		postId: 'S01E02',
 		youtubeLink: 'https://www.youtube.com/watch?v=IAZ-8rSbMwo',
+		transcription: assets.transcriptions.S01E02,
+		readTime: '34 min'
 	},
 	{
 		description: 'En redes sociales, las fotos y videos de animales son muy populares. Nos divierten sus travesuras, nos sorprenden sus habilidades y nos dan ternura sus capacidades emocionales. Ver casos de crueldad y maltrato suele causar rabia y tristeza, mientras las historias de rescate, o incluso de animales que escapan del matadero y luego viven felices en un santuario, nos alegran y dan esperanza. Muchos de nosotros, al ver un perro hambriento querremos darle algo de comer o si encontramos a un ave caída de un nido trataremos de ayudarla. Incluso compartimos nuestras casas con otros animales a quienes queremos y tratamos como parte de nuestra familia...',
